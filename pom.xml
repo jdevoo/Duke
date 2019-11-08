@@ -45,7 +45,7 @@ TO PUBLISH SNAPSHOTS
 
     <name>Duke</name>
     <description>Duke is a configurable record linkage engine.</description>
-    <url>https://github.com/larsga/Duke</url>
+    <url>https://github.com/jdevoo/Duke</url>
 
     <modules>
         <module>duke-core</module>
@@ -250,9 +250,9 @@ TO PUBLISH SNAPSHOTS
 
     <!-- this is necessary to get the buildnumber plugin to work -->
     <scm>
-        <connection>scm:git:git@github.com:larsga/Duke.git</connection>
-        <developerConnection>scm:git:git@github.com:larsga/Duke.git</developerConnection>
-        <url>https://github.com/larsga/Duke</url>
+        <connection>scm:git:git@github.com:jdevoo/Duke.git</connection>
+        <developerConnection>scm:git:git@github.com:jdevoo/Duke.git</developerConnection>
+        <url>https://github.com/jdevoo/Duke</url>
     </scm>
 
     <!-- the below is included because Sonatype hosting requires it -->

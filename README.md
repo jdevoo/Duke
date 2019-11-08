@@ -2,7 +2,7 @@
 
 Duke is a fast and flexible deduplication (or entity resolution, or
 record linkage) engine written in Java on top of Lucene.  The latest
-version is 1.2 (see [ReleaseNotes](https://github.com/larsga/Duke/wiki/ReleaseNotes)).
+version is 1.2 (see [ReleaseNotes](https://github.com/jdevoo/Duke/wiki/ReleaseNotes)).
 
 Duke can find duplicate customer records, or other kinds of records in
 your database. Or you can use it to connect records in one data set
@@ -15,18 +15,18 @@ Features
 
   * High performance.
   * Highly configurable.
-  * Support for [CSV, JDBC, SPARQL, NTriples, and JSON](https://github.com/larsga/Duke/wiki/DataSources).
-  * Many built-in [comparators](https://github.com/larsga/Duke/wiki/Comparator).
-  * Plug in your own data sources, comparators, and [cleaners](https://github.com/larsga/Duke/wiki/Cleaner).
-  * [Genetic algorithm](https://github.com/larsga/Duke/wiki/GeneticAlgorithm) for automatically tuning configurations.
+  * Support for [CSV, JDBC, SPARQL, NTriples, and JSON](https://github.com/jdevoo/Duke/wiki/DataSources).
+  * Many built-in [comparators](https://github.com/jdevoo/Duke/wiki/Comparator).
+  * Plug in your own data sources, comparators, and [cleaners](https://github.com/jdevoo/Duke/wiki/Cleaner).
+  * [Genetic algorithm](https://github.com/jdevoo/Duke/wiki/GeneticAlgorithm) for automatically tuning configurations.
   * Command-line client for getting started.
-  * [API](https://github.com/larsga/Duke/wiki/UsingTheAPI) for embedding into any kind of application.
+  * [API](https://github.com/jdevoo/Duke/wiki/UsingTheAPI) for embedding into any kind of application.
   * Support for batch processing and continuous processing.
   * Can maintain database of links found via JNDI/JDBC.
   * Can run in multiple threads.
 
-The [GettingStarted page](https://github.com/larsga/Duke/wiki/GettingStarted) explains how to get started and has links to
-further documentation. The [examples of use](https://github.com/larsga/Duke/wiki/ExamplesOfUse) page
+The [GettingStarted page](https://github.com/jdevoo/Duke/wiki/GettingStarted) explains how to get started and has links to
+further documentation. The [examples of use](https://github.com/jdevoo/Duke/wiki/ExamplesOfUse) page
 lists real examples of using Duke, complete with data and
 configurations. [This
 presentation](http://www.slideshare.net/larsga/linking-data-without-common-identifiers)
