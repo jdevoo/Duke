@@ -2,7 +2,7 @@
 
 Duke is a fast and flexible deduplication (or entity resolution, or
 record linkage) engine written in Java on top of Lucene.  The latest
-version is 1.2 (see [ReleaseNotes](https://github.com/jdevoo/Duke/wiki/ReleaseNotes)).
+version is 1.4 (see [ReleaseNotes](https://github.com/jdevoo/Duke/wiki/ReleaseNotes)).
 
 Duke can find duplicate customer records, or other kinds of records in
 your database. Or you can use it to connect records in one data set
@@ -54,7 +54,7 @@ easy as including the following in your pom file:
 <dependency>
   <groupId>no.priv.garshol.duke</groupId>
   <artifactId>duke</artifactId>
-  <version>1.2</version>
+  <version>1.4</version>
 </dependency>
 ```
 
